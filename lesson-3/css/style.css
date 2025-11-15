@@ -13,3 +13,24 @@ li {
 a {
     text-decoration: none;
 }
+
+.preview {
+    padding: 199px 0 160px;
+}
+
+.preview__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+}
+
+img {
+    max-width: 100%;
+    width: 576px;
+}
+
+.preview-content {
+    max-width: 669.03px;
+    width: 100%;
+}

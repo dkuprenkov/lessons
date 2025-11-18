@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background: #F7F9FA;
+    padding: 80px 105px;
+}
+
+.blog {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.blog__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.blog__header h2 {
+    font: 42px/50.4px "Fraunces", sans-serif;
+    letter-spacing: 0.2px;
+}
+
+.blog__all-posts {
+    color: #0070A0;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.blog__row {
+    display: flex;
+    gap: 32px;
+}
+
+.card {
+    flex: 1 1 0;
+    background: #fff;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__image {
+    height: 238px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__image img {
+    max-width: 355px;
+}
+
+.card__tag {
+    display: inline-block;
+    margin-top: 12px;
+    background: #e8f3ff;
+    color: #2C90C9;
+    padding: 4px 10px;
+    font-size: 12px;
+    width: auto;
+    max-width: max-content;
+}
+
+.card__title {
+    font: 25px/31.25px "Fraunces", sans-serif;
+    margin: 10px 0;
+    color: #1F1F1F;
+}
+
+.card__text {
+    font: 14px/19.6px "Inter", sans-serif;
+    margin-bottom: 12px;
+    color: #1F1F1F;
+}
+
+.card__date {
+    font-size: 12px;
+    color: #1F1F1F;
+}
